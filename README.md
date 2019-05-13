@@ -4,9 +4,9 @@ This program changes the MSP432 Launchpad's onboard tri-colored LED based on UAR
 
 The Launchpad takes commands consisting of 4 characters so that the first character represents an LED color (R, G, or B) and the final three characters represent a duty cycle (0 – 100%) of the corresponding LED's PWM (higher duty cycle => brighter LED). Each command ends with a line feed (‘\n’).
 
-If the MSP received a valid communication (for example R060), it will respond with: 
+If the MSP receives a valid communication (for example R060), it will respond with: 
 		valid R060
-If the MSP receive an invalid communication (for example R160), it will respond with: 
+If the MSP receives an invalid communication (for example R160), it will respond with: 
 		invalid R160
 
 
