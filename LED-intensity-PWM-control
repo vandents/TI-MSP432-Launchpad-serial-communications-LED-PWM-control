@@ -1,9 +1,7 @@
 /* ----------------------------------------------------------------------------------
 * Author: Scott VandenToorn
-* Class: EGR226904
 * Date: April 4, 2019
-* Instructor: Doctor Aggarwal
-* Program: LED Intensity Control
+* Program: Serial Input LED Intensity Control
 * Description: Changes tri-color LED PWM base on serial input.
 *
 * PINOUT:
