@@ -1,7 +1,6 @@
 # TI-MSP432-Launchpad-serial-communications
 This program changes the MSP432 Launchpad's onboard tri-colored LED based on UART serial input from a computer.  
-The Launchpad takes commands consisting of 4 characters so that the first character represents an LED color (R, G, or B) and the final three characters represent a duty cycle (0 – 100%) of the corresponding LED's PWM (higher duty cycle => brighter LED). Each command ends with a line feed (‘\n’).
-
+The Launchpad takes commands consisting of 4 characters so that the first character represents an LED color (R, G, or B) and the final three characters represent a duty cycle (0 – 100%) of the corresponding LED's PWM (higher duty cycle => brighter LED). Each command ends with a line feed (‘\n’).  
 /* Remap Red LED P2.0 Timer A0.1 output */
 /* Remap Green LED P2.1 to Timer A0.2 output */
 /* Remap Blue LED P2.2 to Timer A0.3 output */
@@ -19,4 +18,5 @@ The UART communication properties are as follows:
 * Stop: One bit
 
 To make serial communications possible on a MacBook I used a [USB to TTL serial cable](https://www.adafruit.com/product/954 "Adafruit - USB to TTL") and a simple serial port terminal application called [CoolTerm](https://freeware.the-meiers.org "freeware.the-meiers.org").
-
+asdf  
+asdf
