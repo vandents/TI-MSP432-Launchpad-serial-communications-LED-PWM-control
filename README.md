@@ -1,7 +1,10 @@
 # TI-MSP432-Launchpad-serial-communications
-This program changes the MSP432 Launchpad's onboard tri-colored LED based on UART serial input from a computer.
-
+This program changes the MSP432 Launchpad's onboard tri-colored LED based on UART serial input from a computer.  
 The Launchpad takes commands consisting of 4 characters so that the first character represents an LED color (R, G, or B) and the final three characters represent a duty cycle (0 – 100%) of the corresponding LED's PWM (higher duty cycle => brighter LED). Each command ends with a line feed (‘\n’).
+
+/* Remap Red LED P2.0 Timer A0.1 output */
+/* Remap Green LED P2.1 to Timer A0.2 output */
+/* Remap Blue LED P2.2 to Timer A0.3 output */
 
 If the MSP receives a valid communication (for example R060), it will respond with: 
 * valid R060
