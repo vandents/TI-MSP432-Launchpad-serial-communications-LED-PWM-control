@@ -20,7 +20,13 @@ To make serial communications possible on a MacBook I used a [USB to TTL serial 
 
 **Pin remaps:**  
 `Timer PWM Output` | `Pin Remapped To`
----|---
-TA0.1 | P2.0 (Red LED)
-TA0.2 | P2.1 (Green LED)
-TA0.3 | P2.2 (Blue LED)
+--- | ---
+TA0.1 | P2.0 Red LED
+TA0.2 | P2.1 Green LED
+TA0.3 | P2.2 Blue LED
+
+| `Timer PWM Output` | `Pin Remapped To` |   |   |   |
+|:-:|:-:|---|---|---|
+| TA0.1 | P2.0 (Red LED) |   |   |   |
+| TA0.2 | P2.1 (Green LED) |   |   |   |
+| TA0.3 | P2.2 (Blue LED) |   |   |   |
