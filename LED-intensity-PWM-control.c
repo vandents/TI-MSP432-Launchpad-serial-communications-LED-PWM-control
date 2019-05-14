@@ -1,8 +1,8 @@
 /* ----------------------------------------------------------------------------------
 * Author: Scott VandenToorn
 * Date: April 4, 2019
-* Program: Serial Input LED Intensity Control
-* Description: Changes tri-color LED PWM base on serial input.
+* Program: MSP432 Launchpad Serial Input LED Intensity Control
+* Description: Changes the onboard tri-color LED PWM base on serial input.
 *
 * PINOUT:
 *      P2.0, 2.1, 2.2       Red LED (TA0.1 PWM), Green LED (TA0.2 PWM), Blue LED (TA0.3 PWM)
