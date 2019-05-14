@@ -10,15 +10,15 @@ If the MSP receives a valid communication (for example R060), it will respond wi
 If the MSP receives an invalid communication (for example R160), it will respond with: 
 * invalid R160
 
-The UART communication properties are as follows: 
+To make serial communications possible on a MacBook I used a [USB to TTL serial cable](https://www.adafruit.com/product/954 "Adafruit - USB to TTL") and a simple serial port terminal application called [CoolTerm](https://freeware.the-meiers.org "freeware.the-meiers.org").
+
+## UART communication properties 
 * Baud rate: 9600
 * Data: 8-bit
 * Parity: None
 * Stop: One bit
 
-To make serial communications possible on a MacBook I used a [USB to TTL serial cable](https://www.adafruit.com/product/954 "Adafruit - USB to TTL") and a simple serial port terminal application called [CoolTerm](https://freeware.the-meiers.org "freeware.the-meiers.org").
-
-## Pin remaps:
+## Pin remaps
 | `Timer` | `Remapped Output` | `LED Color` 
 --- | --- | ---
 TA0.1 | P2.0 | Red
