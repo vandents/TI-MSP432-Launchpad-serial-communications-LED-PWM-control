@@ -16,8 +16,11 @@ The UART communication properties are as follows:
 * Parity: None
 * Stop: One bit
 
-Timer A0.1 output - remapped to pin 2.0 (Red LED)  
-Timer A0.2 output - remapped to pin 2.1 (Green LED)  
-Timer A0.3 output - remapped to pin 2.2 (Blue LED)  
+**Pin remaps:**  
+`Timer PWM Output` | `Pin Remapped To`
+--- | ---
+TA0.1 | P2.0 (Red LED)  
+TA0.2 | P2.1 (Green LED)  
+TA0.3 | P2.2 (Blue LED)  
 
 To make serial communications possible on a MacBook I used a [USB to TTL serial cable](https://www.adafruit.com/product/954 "Adafruit - USB to TTL") and a simple serial port terminal application called [CoolTerm](https://freeware.the-meiers.org "freeware.the-meiers.org").
